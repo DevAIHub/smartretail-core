@@ -1,0 +1,62 @@
+# Bytecode de Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Entornos virtuales
+venv/
+.env/
+.env.*
+
+# Archivos de configuración de entorno
+*.env
+*.local
+
+# Archivos de logs
+*.log
+
+# Archivos de datos temporales
+*.csv
+*.sqlite3
+*.db
+data/
+
+# Archivos Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Cache de herramientas
+.cache/
+*.egg-info/
+pip-wheel-metadata/
+
+# Node.js / React
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+*.swp
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Cobertura de pruebas
+coverage/
+*.coverage
+htmlcov/
+
+# Archivos de salida
+*.out
+*.exe
+*.dll
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
